@@ -1,6 +1,10 @@
 package Interfaces;
 
 public class Cleric extends Player {
+    public Cleric(int health) {
+        super(health);
+    }
+
     public IHeal getHealingTool() {
         return healingTool;
     }
