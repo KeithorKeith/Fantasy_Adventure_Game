@@ -4,8 +4,8 @@ import Interfaces.IDefend;
 
 public class Warlock extends Mage {
 
-    public Warlock(IDefend creature) {
-        super(creature);
+    public Warlock(int health, IDefend creature) {
+        super(health, creature);
     }
 
     public void defend() {

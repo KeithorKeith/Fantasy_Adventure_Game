@@ -18,4 +18,9 @@ public class Cleric extends Player {
     public void addHealingTool(IHeal item) {
         healingTools.add(item);
     }
+
+    public void heal(Player player) {
+        int startingHealth = player.getHealth();
+        player.setHealth(startingHealth + 10);
+    }
 }
