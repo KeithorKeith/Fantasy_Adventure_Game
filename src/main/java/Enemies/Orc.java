@@ -1,4 +1,8 @@
 package Enemies;
 
-public class Orc {
+public class Orc extend Enemy{
+
+    public Orc() {
+
+    }
 }

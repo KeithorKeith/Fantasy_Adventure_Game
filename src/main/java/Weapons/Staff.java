@@ -1,4 +1,4 @@
 package Weapons;
 
-public class Staff {
+public class Staff implements IWeapon {
 }
