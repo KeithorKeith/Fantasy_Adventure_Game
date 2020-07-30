@@ -1,4 +1,4 @@
-package Interfaces;
+package Spells;
 
 public interface ISpell {
 }

@@ -1,7 +1,7 @@
 package Mages;
 
 import Interfaces.IDefend;
-import Interfaces.ISpell;
+import Spells.ISpell;
 
 import java.util.ArrayList;
 
