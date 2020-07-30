@@ -1,8 +1,10 @@
 package Enemies;
 
-public class Orc extend Enemy{
+import Weapons.IWeapon;
 
-    public Orc() {
+public class Orc extends Enemy {
 
+    public Orc(int health, IWeapon weapon) {
+        super(health, weapon);
     }
 }
