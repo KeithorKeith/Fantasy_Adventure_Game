@@ -19,4 +19,7 @@ public abstract class Enemy extends Player {
         this.weapon = weapon;
     }
 
+    public void attack(Player victim) {
+        weapon.attack(victim);
+    }
 }

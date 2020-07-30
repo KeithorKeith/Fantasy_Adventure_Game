@@ -10,6 +10,11 @@ public class Cleric extends Player {
         healingTools = new ArrayList<IHeal>();
     }
 
+    public void attack(Player victim) {
+        int startingHealth = victim.getHealth();
+        victim.setHealth(startingHealth - 5);
+    }
+
     public void addHealingTool(IHeal item) {
         healingTools.add(item);
     }
