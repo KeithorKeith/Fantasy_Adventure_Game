@@ -1,5 +1,6 @@
 package Enemies;
 
+import Interfaces.IDefend;
 import Weapons.IWeapon;
 
 public class Orc extends Enemy {
